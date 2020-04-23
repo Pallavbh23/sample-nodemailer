@@ -9,8 +9,8 @@ nodemailer.createTestAccount((err, account) => {
     {
       service: "gmail",
       auth: {
-        user: "jobsespresso.jobs@gmail.com",
-        pass: "jobs@2020",
+        user: "",
+        pass: "",
       },
       logger: true,
       debug: false, // include SMTP traffic in the logs
